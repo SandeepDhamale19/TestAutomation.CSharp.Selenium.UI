@@ -1,2 +1,2 @@
 # Selenium-UI-Tests
-Selenium UI Tests suing C# Selenium, C# and Specflow
+Selenium UI Tests using Selenium, C# and Specflow
