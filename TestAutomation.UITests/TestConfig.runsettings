@@ -1,0 +1,5 @@
+﻿<RunSettings>
+  <TestRunParameters>
+    <Parameter name="Environment" value="qa" />
+  </TestRunParameters>
+</RunSettings>

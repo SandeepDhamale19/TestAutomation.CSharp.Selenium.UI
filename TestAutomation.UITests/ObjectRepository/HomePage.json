@@ -1,0 +1,59 @@
+{  
+  //LNK_DemoqaCom,
+  "LNK_DemoqaCom_ByXPath": "XPath://a[@href='https://demoqa.com']",
+  "LNK_DemoqaCom_ByCSS": "CssSelector:a[href='https://demoqa.com']",
+
+  //BTN_ImagesToolsqaJpg,
+  "BTN_ImagesToolsqaJpg_ByXPath": "XPath://img[@src='/images/Toolsqa.jpg']",
+  "BTN_ImagesToolsqaJpg_ByCSS": "CssSelector:img[src='/images/Toolsqa.jpg']",
+
+  //LNK_WwwToolsqaComSelenium,
+  "LNK_WwwToolsqaComSelenium_ByXPath": "XPath://a[@href='https://www.toolsqa.com/selenium-training/']",
+  "LNK_WwwToolsqaComSelenium_ByCSS": "CssSelector:a[href='https://www.toolsqa.com/selenium-training/']",
+
+  //BTN_ImagesWbSvg,
+  "BTN_ImagesWbSvg_ByXPath": "XPath://img[@alt='New Live Session']",
+  "BTN_ImagesWbSvg_ByCSS": "CssSelector:img[alt='New Live Session'][src='/images/WB.svg']",
+
+  //LBL_Elements,
+  "LBL_Elements_ByXPath": "XPath:(//div/div/div/div/h5)[1]",
+  "LBL_Elements_ByText": "XPath://h5[contains(text(),'Elements')]",
+  "LBL_Elements_ByCSS": "CssSelector:div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > h5:nth-child(1)",
+  "LBL_Elements_ByXPathList": "XPath://div/div/div/div/h5",
+
+  //LBL_Forms,
+  "LBL_Forms_ByXPath": "XPath:(//div/div/div/div/h5)[2]",
+  "LBL_Forms_ByText": "XPath://h5[contains(text(),'Forms')]",
+  "LBL_Forms_ByCSS": "CssSelector:div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > h5:nth-child(1)",
+  "LBL_Forms_ByXPathList": "XPath://div/div/div/div/h5",
+
+  //LBL_Alertsframe&Windows,
+  "LBL_Alertsframe&Windows_ByXPath": "XPath:(//div/div/div/div/h5)[3]",
+  "LBL_Alertsframe&Windows_ByText": "XPath://h5[contains(text(),'Alerts, Frame & Windows')]",
+  "LBL_Alertsframe&Windows_ByCSS": "CssSelector:div:nth-child(3) > div:nth-child(1) > div:nth-child(3) > h5:nth-child(1)",
+  "LBL_Alertsframe&Windows_ByXPathList": "XPath://div/div/div/div/h5",
+
+  //LBL_Widgets,
+  "LBL_Widgets_ByXPath": "XPath:(//div/div/div/div/h5)[4]",
+  "LBL_Widgets_ByText": "XPath://h5[contains(text(),'Widgets')]",
+  "LBL_Widgets_ByCSS": "CssSelector:div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > h5:nth-child(1)",
+  "LBL_Widgets_ByXPathList": "XPath://div/div/div/div/h5",
+
+  //LBL_Interactions,
+  "LBL_Interactions_ByXPath": "XPath:(//div/div/div/div/h5)[5]",
+  "LBL_Interactions_ByText": "XPath://h5[contains(text(),'Interactions')]",
+  "LBL_Interactions_ByCSS": "CssSelector:div:nth-child(5) > div:nth-child(1) > div:nth-child(3) > h5:nth-child(1)",
+  "LBL_Interactions_ByXPathList": "XPath://div/div/div/div/h5",
+  
+  //LBL_Bookstoreapplication,
+  "LBL_Bookstoreapplication_ByXPath": "XPath:(//div/div/div/div/h5)[6]",
+  "LBL_Bookstoreapplication_ByText": "XPath://h5[contains(text(),'Book Store Application')]",
+  "LBL_Bookstoreapplication_ByCSS": "CssSelector:div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > h5:nth-child(1)",
+  "LBL_Bookstoreapplication_ByXPathList": "XPath://div/div/div/div/h5",
+
+  //LBL_20132020Toolsqacom,
+  "LBL_20132020Toolsqacom_ByXPath": "XPath://header/following-sibling::footer/span[1]",
+  "LBL_20132020Toolsqacom_ByText": "XPath://span[contains(text(),'© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.')]",
+  "LBL_20132020Toolsqacom_ByCSS": "CssSelector:span:nth-child(1)",
+  "LBL_20132020Toolsqacom_ByXPathList": "XPath://header/following-sibling::footer/span"
+}

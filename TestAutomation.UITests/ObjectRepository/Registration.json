@@ -1,0 +1,57 @@
+{
+  //LBL_Firstname,
+  "LBL_Firstname_ByXPath": "XPath:(//div/form/div/div/label)[1]",
+  "LBL_Firstname_ByText": "XPath://label[contains(text(),'First Name :')]",
+  "LBL_Firstname_ByCSS": "CssSelector:div:nth-child(1) > div:nth-child(1) > label:nth-child(1)",
+  "LBL_Firstname_ByXPathList": "XPath://div/form/div/div/label",
+
+  //TXT_FirstName,
+  "TXT_FirstName_ByXPath": "XPath://input[@autocomplete='off'][@placeholder='First Name']",
+  "TXT_FirstName_ByCSS": "CssSelector:input[autocomplete='off'][placeholder='First Name'][type='text']",
+
+  //LBL_Lastname,
+  "LBL_Lastname_ByXPath": "XPath:(//div/form/div/div/label)[2]",
+  "LBL_Lastname_ByText": "XPath://label[contains(text(),'Last Name :')]",
+  "LBL_Lastname_ByCSS": "CssSelector:div:nth-child(2) > div:nth-child(1) > label:nth-child(1)",
+  "LBL_Lastname_ByXPathList": "XPath://div/form/div/div/label",
+
+  //TXT_LastName,
+  "TXT_LastName_ByXPath": "XPath://input[@autocomplete='off'][@placeholder='Last Name']",
+  "TXT_LastName_ByCSS": "CssSelector:input[autocomplete='off'][placeholder='Last Name'][type='text']",
+
+  //LBL_Username,
+  "LBL_Username_ByXPath": "XPath:(//div/form/div/div/label)[3]",
+  "LBL_Username_ByText": "XPath://label[contains(text(),'UserName :')]",
+  "LBL_Username_ByCSS": "CssSelector:div:nth-child(3) > div:nth-child(1) > label:nth-child(1)",
+  "LBL_Username_ByXPathList": "XPath://div/form/div/div/label",
+
+  //TXT_Username,
+  "TXT_Username_ByXPath": "XPath://input[@autocomplete='off'][@placeholder='UserName']",
+  "TXT_Username_ByCSS": "CssSelector:input[autocomplete='off'][placeholder='UserName'][type='text']",
+
+  //LBL_Password,
+  "LBL_Password_ByXPath": "XPath:(//div/form/div/div/label)[4]",
+  "LBL_Password_ByText": "XPath://label[contains(text(),'Password :')]",
+  "LBL_Password_ByCSS": "CssSelector:div:nth-child(4) > div:nth-child(1) > label:nth-child(1)",
+  "LBL_Password_ByXPathList": "XPath://div/form/div/div/label",
+
+  //TXT_Password,
+  "TXT_Password_ByXPath": "XPath://input[@autocomplete='off'][@pattern='^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])(?=.{8,})$']",
+  "TXT_Password_ByCSS": "CssSelector:div:nth-child(4) > div:nth-child(2) > input:nth-child(1)",
+
+  //BTN_Backlogin,
+  "BTN_Backlogin_ByXPath": "XPath:(//div/form/div/div/button[@type='button'])[1]",
+  "BTN_Backlogin_ByText": "XPath://button[contains(text(),'Back to Login')]",
+  "BTN_Backlogin_ByCSS": "CssSelector:div:nth-child(1) > button:nth-child(1)",
+  "BTN_Backlogin_ByXPathList": "XPath://div/form/div/div/button[@type='button']",
+
+  //BTN_Register,
+  "BTN_Register_ByXPath": "XPath:(//div/form/div/div/button[@type='button'])[2]",
+  "BTN_Register_ByText": "XPath://button[contains(text(),'Register')]",
+  "BTN_Register_ByCSS": "CssSelector:div:nth-child(2) > button:nth-child(1)",
+  "BTN_Register_ByXPathList": "XPath://div/form/div/div/button[@type='button']",
+
+  //BTN_Captcha,
+  "BTN_Captcha_ByXPath": "XPath://div[@class='recaptcha-checkbox-border']/parent::span"
+
+}

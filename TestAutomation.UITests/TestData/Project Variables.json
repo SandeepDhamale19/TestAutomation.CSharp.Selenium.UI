@@ -1,0 +1,51 @@
+﻿{
+  "Browser": "chrome",
+  //Environment: qa/ rc/ iat
+  "Environment": "qa",
+  "ExecuteRemotely": "No",
+  "EnableDefectLogging": false,
+
+  // Azure DevOps Integration
+  "UpdateAzureTests": false, // Mark true only when require to execute automated scripts on Azure DevOps.
+  "ProjectTeamName": "ProjectName", // Replace With Project Name
+  "AzureTestPlanId": "PlanId", // Replace with Test Plan Id
+  "AzureTestSuiteId": "SuiteId", // Replace with Suite Id
+
+  // Environments
+  // QA
+  "ApplicationURLUITests": "https://demoqa.com/",
+
+  //RC
+  "ApplicationURLUITestsRC": "",
+
+  //IAT
+  "ApplicationURLUITestsIAT": "",
+
+  // Prod
+  "ApplicationURLUITestsPROD": "",
+
+  // Timeout
+  "DefaultTimeout": 30,
+
+  // API URLs
+  //QA - API
+  "ApiBaseUrlUITests": "",
+
+  //RC - API
+  "ApiBaseUrlUITestsRC": "",
+
+
+  //IAT - API
+  "ApiBaseUrlUITestsIAT": "",
+
+  //PROD - API
+  "ApiBaseUrlUITestsPROD": "",
+
+  //Auth URLs
+  "AuthURLUITests": "",
+
+
+  "ApiResourceUrl": "/api/proxy/ajax",
+  "ApiGlobalResourceUrl": "/platform/proxy/ajax"
+
+}

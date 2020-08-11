@@ -1,0 +1,21 @@
+{
+  //LBL_Login,
+  "LBL_Login_ByXPath": "XPath:(//div/div/ul/li/span)[29]",
+  "LBL_Login_ByText": "XPath://span[contains(text(),'Login')]",
+  "LBL_Login_ByXPathList": "XPath://div/div/ul/li/span",
+
+  //LBL_Bookstore,
+  "LBL_Bookstore_ByXPath": "XPath:(//div/div/ul/li/span)[30]",
+  "LBL_Bookstore_ByText": "XPath:(//span[contains(text(),'Book Store')])[1]",
+  "LBL_Bookstore_ByXPathList": "XPath://div/div/ul/li/span",
+
+  //LBL_Profile,
+  "LBL_Profile_ByXPath": "XPath:(//div/div/ul/li/span)[31]",
+  "LBL_Profile_ByText": "XPath://span[contains(text(),'Profile')]",
+  "LBL_Profile_ByXPathList": "XPath://div/div/ul/li/span",
+
+  //LBL_Bookstoreapi,
+  "LBL_Bookstoreapi_ByXPath": "XPath:(//div/div/ul/li/span)[32]",
+  "LBL_Bookstoreapi_ByText": "XPath://span[contains(text(),'Book Store API')]",
+  "LBL_Bookstoreapi_ByXPathList": "XPath://div/div/ul/li/span"
+}
