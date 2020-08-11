@@ -9,10 +9,10 @@ Install-Package Test.Automation.Framework -Version 1.0.0.5
  <kbd>![](TestAutomation.UITests/Results/ExecutionReport_Pass_Summary.PNG)</kbd>
  <!--<img src="TestAutomation.UITests/Results/ExecutionReport_Pass_Summary.PNG"  width="1000" height="600">-->
  
-##### B. Test Suites: Dashboard [All passed]
+##### B. Test Suites: Dashboard
   <kbd>![](TestAutomation.UITests/Results/ExecutionReport_Pass_Dashboard.PNG)<kbd>
 
-##### C. Test Suites: Dashboard [Failed Scenario]
+##### C. Test Suites: Summary [Failed Scenario]
   <kbd>![](TestAutomation.UITests/Results/ExecutionReport_Fail_Summary.PNG)</kbd>
 
  
