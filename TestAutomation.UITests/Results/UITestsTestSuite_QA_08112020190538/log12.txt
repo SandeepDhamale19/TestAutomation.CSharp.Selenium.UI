@@ -1,0 +1,55 @@
+Start test session: UITestsTestSuite
+
+Start test case: Access Book store application, , Test collection: UITestsTestSuite
+Test case scope:
+
+Execute test step: Given  I access Demo QA application, 8/11/2020 7:05:41 PM
+Info: 8/11/2020 7:06:20 PM - Navigated to:https://demoqa.com/, as expected
+Execute test step: And  I navigate to store Application, 8/11/2020 7:06:20 PM
+Info: 8/11/2020 7:06:21 PM - Element LBL_Bookstoreapplication_ByXPath clicked., as expected
+Execute test step: Then  I am navigated to Book store 'https://demoqa.com/books', 8/11/2020 7:06:21 PM
+Info: 8/11/2020 7:06:21 PM - Url https://demoqa.com/books has expected value https://demoqa.com/books, as expected
+
+Start test case: Verify UI for login page, , Test collection: UITestsTestSuite
+Test case scope:
+
+Execute test step: When  I access Book store Application, 8/11/2020 7:06:24 PM
+Info: 8/11/2020 7:06:58 PM - Navigated to:https://demoqa.com/, as expected
+Info: 8/11/2020 7:06:59 PM - Element LBL_Bookstoreapplication_ByXPath clicked., as expected
+Info: 8/11/2020 7:06:59 PM - Url https://demoqa.com/books has expected value https://demoqa.com/books, as expected
+Execute test step: Given  I Navigate to login page, 8/11/2020 7:06:59 PM
+Info: 8/11/2020 7:07:01 PM - Element LBL_Login_ByXPath clicked., as expected
+Execute test step: Then  I should be able to view desired fields for login page, 8/11/2020 7:07:01 PM
+Info: 8/11/2020 7:07:01 PM - Element LBL_Username_ByXPath is visible, as expected
+Info: 8/11/2020 7:07:01 PM - Expected text: UserName : matches Actual text: UserName :, as expected
+Info: 8/11/2020 7:07:01 PM - Element TXT_Username_ByXPath is visible, as expected
+Info: 8/11/2020 7:07:01 PM - Attribute placeholder for element: TXT_Username_ByXPath with value: UserName matches require value., as expected
+Info: 8/11/2020 7:07:01 PM - Element LBL_Password_ByXPath is visible, as expected
+Info: 8/11/2020 7:07:01 PM - Expected text: Password : matches Actual text: Password :, as expected
+Info: 8/11/2020 7:07:01 PM - Element TXT_Password_ByXPath is visible, as expected
+Info: 8/11/2020 7:07:01 PM - Attribute placeholder for element: TXT_Password_ByXPath with value: Password matches require value., as expected
+Info: 8/11/2020 7:07:01 PM - Element BTN_Login_ByXPath is visible, as expected
+Info: 8/11/2020 7:07:01 PM - Element BTN_Newuser_ByXPath is visible, as expected
+
+Start test case: Verify UI for registration page, , Test collection: UITestsTestSuite
+Test case scope:
+
+Execute test step: When  I access Book store Application, 8/11/2020 7:07:04 PM
+Info: 8/11/2020 7:07:10 PM - Navigated to:https://demoqa.com/, as expected
+Info: 8/11/2020 7:07:11 PM - Element LBL_Bookstoreapplication_ByXPath clicked., as expected
+Info: 8/11/2020 7:07:11 PM - Url https://demoqa.com/books has expected value https://demoqa.com/books, as expected
+Execute test step: Given  I Navigate to registration form, 8/11/2020 7:07:11 PM
+Info: 8/11/2020 7:07:12 PM - Element LBL_Login_ByXPath clicked., as expected
+Info: 8/11/2020 7:07:13 PM - Element BTN_Newuser_ByXPath clicked., as expected
+Execute test step: Then  I should be able to view desired fields, 8/11/2020 7:07:13 PM
+Info: 8/11/2020 7:07:13 PM - Element LBL_Firstname_ByXPath is visible, as expected
+Info: 8/11/2020 7:07:13 PM - Expected text: First Name : matches Actual text: First Name :, as expected
+Info: 8/11/2020 7:07:13 PM - Element TXT_FirstName_ByXPath is visible, as expected
+Info: 8/11/2020 7:07:13 PM - Attribute placeholder for element: TXT_FirstName_ByXPath with value: First Name matches require value., as expected
+Info: 8/11/2020 7:07:13 PM - Element LBL_Lastname_ByXPath is visible, as expected
+Info: 8/11/2020 7:07:13 PM - Expected text: Last Name : matches Actual text: Last Name :, as expected
+Info: 8/11/2020 7:07:13 PM - Element TXT_LastName_ByXPath is visible, as expected
+Info: 8/11/2020 7:07:13 PM - Attribute placeholder for element: TXT_LastName_ByXPath with value: Last Name matches require value., as expected
+Info: 8/11/2020 7:07:13 PM - Element LBL_Username_ByXPath is visible, as expected
+Info: 8/11/2020 7:07:13 PM - Element LBL_Username_ByXPath loaded within given timeout period., as expected
+Error: 8/11/2020 7:07:13 PM - Expected text: LoginName : does not match Actual text: UserName :, expected result: Expected text: LoginName : should match Actual text: UserName :, actual result: Expected text: LoginName : does not match Actual text: UserName :

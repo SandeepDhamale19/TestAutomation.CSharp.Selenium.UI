@@ -349,3 +349,4 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 /TestAutomation.UITests/Results/UITestsTestSuite_QA_08112020172605
+/TestAutomation.UITests/Results/UITestsTestSuite_QA_08112020190105

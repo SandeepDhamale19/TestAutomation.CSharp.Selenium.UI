@@ -1,0 +1,785 @@
+<!DOCTYPE HTML PUBLIC ' -//W3C//DTD HTML 4.01//EN' 'http://www.w3.org/TR/html4/strict.dtd'>
+<html>
+<head>
+<meta charset='utf-8' />
+<meta content='text/html; charset=utf-8' />
+<title>UITestsTestSuite test result</title>
+<script type='text/javascript' src='https://www.google.com/jsapi'></script>
+<script type='text/javascript'>google.load('visualization', '1.0', {'packages':['corechart']});google.setOnLoadCallback(drawChart);function drawChart() {var data = new google.visualization.DataTable();data.addColumn('string', 	'Topping');data.addColumn('number', 'Slices');data.addRows([['', 0],['Failed', 1],['Skipped', 0],['Passed', 2]]);var options = {'title':'', 'width':400, 'height':250};var chart = new google.visualization.PieChart(document.getElementById('chart_div'));chart.draw(data, options);}</script>
+<style type='text/css'> .normal {background: #F1F1F1; line-height: 18px;} .highlight {background: #d3d3d3;} .dashboardVisible {display: flex;} .dashboardInVisible {display: none;}</style> 
+<style type='text/css'> .switch { position: relative; margin: 20px auto; height: 26px; width: 120px; background: rgba(0, 0, 0, 0.25); border-radius: 3px; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);}.switch-label { position: relative; z-index: 2; float: left; width: 58px; line-height: 26px; font-size: 11px; color: rgba(255, 255, 255, 0.35); text-align: center; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.45); cursor: pointer;}.switch-label:active { font-weight: bold;} .switch-label-off { padding-left: 2px; } .switch-label-on { padding-right: 2px; } .switch-input { display: none; } .switch-input:checked + .switch-label { font-weight: bold; color: rgba(0, 0, 0, 0.65); text-shadow: 0 1px rgba(255, 255, 255, 0.25); transition: 0.15s ease-out; } .switch-input:checked + .switch-label-on ~ .switch-selection { left: 60px; } .switch-selection { display: block; position: absolute; z-index: 1; top: 2px; left: 2px; width: 58px; height: 22px; background: #65bd63; border-radius: 3px; transition: left 0.15s ease-out; } .switch-blue .switch-selection { background: #3aa2d0; background-image: linear-gradient(to bottom, #4fc9ee, #3aa2d0); }}</style>
+<style type='text/css'>  .c-tile-list { list-style: none;  margin: 0;  padding: 0;  display: flex; } .c-article-tile__label {margin-left: 10px; text-align: left; font-size: 200%; padding-top: 15px} .c-tile-list__item { display: flex;  flex-direction: row;  width: 150px; height: 100px; margin: 8px;} /* Title Box*/ .c-article-tile { display: flex;  flex-direction: column;  flex: 1 0 190px;  border: 1px solid rgba(0, 0, 0, 0.1); background-color: rgb(255, 255, 255); } .c-article-tile__header, .c-article-tile__body { padding-bottom: 5px; padding-top: 5px; padding-left: 5px;} .c-article-tile__category { font-weight: bold; } .c-article-tile__body { padding-top: 15px; padding-bottom: 5px; text-align:center; font-size: 200%;} .c-article-tile__title { margin: 0; color: #333; font-size: 80%;} </style>
+</head>
+<body>
+<table id='Tbl_ReportHeader' style='background: linear-gradient(#777, #444); font: 100%/30px Helvetica Neue, helvetica, arial, sans-serif; border-collapse: collapse; margin-top: 1px; box-shadow: inset 0 1px 0 #fff; font-size: 16px; width: 100%'><tr>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: left; width: 20%;'>
+<span>8/11/2020 7:05:41 PM</span>
+</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: center; width: 60%;'>
+<span>UITestsTestSuite
+</span>
+</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: right; width: 20%;'>
+<span>Duration: 00:01:35</span>
+</th>
+</tr>
+</table>
+<table style='width: 100%; font: 100%/30px Helvetica Neue, helvetica, arial, sans-serif;'>
+<tr style='text-align: right'><td colspan='3'>
+<span>
+<div class='switch switch-blue'>
+<input type='radio' class='switch-input' name='view' value='Summary' id='Summary' checked onclick='toggleDashboard("AllParent")'>
+<label for='Summary' class='switch-label switch-label-off'>Summary</label>
+<input type='radio' class='switch-input' name='view' value='Dashboard' id='Dashboard' onclick = 'toggleDashboard("AllDashboard")'>
+<label for='Dashboard' class='switch-label switch-label-on'>Dashboard</label>
+<span class='switch-selection'>
+</div>
+</span>
+</td>
+</tr>
+</table>
+<table id='Tbl_ParentChartBody'>
+<tr>
+<td>
+<div id='chart_div' style='height: 250px; width: 500px; margin-top: -75px;'></div>
+</td>
+<td>
+<div id='chart_Table_div' style='height: 250px; width: 500px'></div>
+<table id='Tbl_ChartDataTable' style='font: 100%/30px Helvetica Neue, helvetica, arial, sans-serif; background: #f5f5f5; border-collapse: collapse; margin-top: 1px; box-shadow: inset 0 1px 0 #fff; font-size: 12px; text-align: left; width: 100%; left: 50%; bottom: 50%; margin-left: -400px; margin-top: -300px; position: relative;'>
+<tr>
+<th style='background: linear-gradient(#777, #444); font-weight: bold; border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; line-height: 20px;'>Test Suite</th>
+<th style='background: #add8e6; border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333;  color: #000; font-weight: bold; padding: 5px 8px; position: relative;  line-height: 20px;'>Tests Executed</th>
+<th style='background: #90ee90; border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333;  color: #000; font-weight: bold; padding: 5px 8px; position: relative;  line-height: 20px;'>Tests Passed</th>
+<th style='background: #eb2d3a; border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333;  color: #000; font-weight: bold; padding: 5px 8px; position: relative;  line-height: 20px;'>Tests Failed</th>
+<th style='background: #fb654e; border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333;  color: #000; font-weight: bold; padding: 5px 8px; position: relative;  line-height: 20px;'>Tests Skipped</th>
+</tr>
+<tr style='background: #e9e9e9;  width: 100%; line-height: 20px;'>
+<td style='overflow: hidden; text-align: left; font-weight: bold'>&nbsp;UITestsTestSuite
+</td>
+<td style='overflow: hidden; text-align: center; color: #052645;'>3</td>
+<td style='overflow: hidden; text-align: center; color: #052645;'>2</td>
+<td style='overflow: hidden; text-align: center; color: #052645;'>1</td>
+<td style='overflow: hidden; text-align: center; color: #052645;'>0</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div id='AllDashboard' class='dashboardInVisible' style='height: 560px'>
+<table style='width: 100%; overflow:hidden; border-color: #2a2a2a; border-style: solid; border-width: 1px; background: #F5F5F5'>
+<ul class='c-tile-list'>
+<tr style='overflow:hidden'>
+<td style='width: 15%; overflow:hidden'>
+<li class='c-tile-list__item'>
+<article class='c-article-tile t-sass' itemscope itemtype='#'>
+<div class='c-article-tile__header' style='background: #add8e6'>
+<label class='c-article-tile__category' itemprop='keywords'>TOTAL TEST CASES
+</label>
+</div>
+<div class='c-article-tile__body'>
+<h2 class='c-article-tile__title' itemprop='headline'>
+<label>3
+</label>
+</h2>
+</div>
+</article>
+</li>
+</td>
+<td style='width: 15%; overflow:hidden'>
+<li class='c-tile-list__item'>
+<article class='c-article-tile t-sass' itemscope itemtype='#'>
+<div class='c-article-tile__header'  style='background: #90ee90'>
+<label class='c-article-tile__category' itemprop='keywords'>PASSED
+</label>
+</div>
+<div class='c-article-tile__body'>
+<h2 class='c-article-tile__title' itemprop='headline'>
+<label>2
+</label>
+</h2>
+</div>
+</article>
+</li>
+</td>
+<td style='width: 15%; overflow:hidden'>
+<li class='c-tile-list__item'>
+<article class='c-article-tile t-sass' itemscope itemtype='#'>
+<div class='c-article-tile__header'  style='background: #eb2d3a'>
+<label class='c-article-tile__category' itemprop='keywords'>FAILED
+</label>
+</div>
+<div class='c-article-tile__body'>
+<h2 class='c-article-tile__title' itemprop='headline'>
+<label>1
+</label>
+</h2>
+</div>
+</article>
+</li>
+</td>
+<td style='width: 15%; overflow:hidden'>
+<li class='c-tile-list__item'>
+<article class='c-article-tile t-sass' itemscope itemtype='#'>
+<div class='c-article-tile__header'  style='background: #fb654e'>
+<label class='c-article-tile__category' itemprop='keywords'>SKIPPED
+</label>
+</div>
+<div class='c-article-tile__body'>
+<h2 class='c-article-tile__title' itemprop='headline'>
+<label>0
+</label>
+</h2>
+</div>
+</article>
+</li>
+</td>
+<td style='width: 15%; overflow:hidden'>
+<li class='c-tile-list__item'>
+<article class='c-article-tile t-sass' itemscope itemtype='#'>
+<div class='c-article-tile__header'  style='background: #add8e6'>
+<label class='c-article-tile__category' itemprop='keywords'>TIME
+</label>
+</div>
+<div class='c-article-tile__body'>
+<h2 class='c-article-tile__title' style='margin-top: -15px' itemprop='headline'>
+<label style='font-size: 14px'>Start: 8/11/2020 7:05:38 PM
+</label>
+</br>
+<label style='font-size: 14px'>End  : 8/11/2020 7:07:14 PM
+</label>
+</h2>
+</div>
+</article>
+</li>
+</td>
+<td style='width: 15%; overflow:hidden'>
+<li class='c-tile-list__item'>
+<article class='c-article-tile t-sass' itemscope itemtype='#'>
+<div class='c-article-tile__header'  style='background: #add8e6'>
+<label class='c-article-tile__category' itemprop='keywords'>DURATION
+</label>
+</div>
+<div class='c-article-tile__body'>
+<h2 class='c-article-tile__title' itemprop='headline'>
+<label >00:01:35
+</label>
+</h2>
+</div>
+</article>
+</li>
+</td>
+</tr>
+<tr>
+<td style='width: 15%; overflow:hidden'>
+<li class='c-tile-list__item'>
+<article class='c-article-tile t-sass' itemscope itemtype='#'>
+<div class='c-article-tile__header' style='background: #add8e6'>
+<label class='c-article-tile__category' itemprop='keywords'>TOTAL STEPS
+</label>
+</div>
+<div class='c-article-tile__body'>
+<h2 class='c-article-tile__title' itemprop='headline'>
+<label >9
+</label>
+</h2>
+</div>
+</article>
+</li>
+</td>
+<td style='width: 15%; overflow:hidden'>
+<li class='c-tile-list__item'>
+<article class='c-article-tile t-sass' itemscope itemtype='#'>
+<div class='c-article-tile__header' style='background: #90ee90'>
+<label class='c-article-tile__category' itemprop='keywords'>STEPS PASSED
+</label>
+</div>
+<div class='c-article-tile__body'>
+<h2 class='c-article-tile__title' itemprop='headline'>
+<label >8
+</label>
+</h2>
+</div>
+</article>
+</li>
+</td>
+<td style='width: 15%; overflow:hidden'>
+<li class='c-tile-list__item'>
+<article class='c-article-tile t-sass' itemscope itemtype='#'>
+<div class='c-article-tile__header' style='background: #eb2d3a'>
+<label class='c-article-tile__category' itemprop='keywords'>STEPS FAILED
+</label>
+</div>
+<div class='c-article-tile__body'>
+<h2 class='c-article-tile__title' itemprop='headline'>
+<label >1
+</label>
+</h2>
+</div>
+</article>
+</li>
+</td>
+<td style='width: 15%; overflow:hidden'>
+<li class='c-tile-list__item'>
+<article class='c-article-tile t-sass' itemscope itemtype='#'>
+<div class='c-article-tile__header' style='background: #fb654e'>
+<label class='c-article-tile__category' itemprop='keywords'>STEPS SKIPPED
+</label>
+</div>
+<div class='c-article-tile__body'>
+<h2 class='c-article-tile__title' itemprop='headline'>
+<label>0
+</label>
+</h2>
+</div>
+</article>
+</li>
+</td>
+<td style='width: 15%; overflow:hidden'>
+<li class='c-tile-list__item'>
+<article class='c-article-tile t-sass' itemscope itemtype='#'>
+<div class='c-article-tile__header' style='background: #add8e6'>
+<label class='c-article-tile__category' itemprop='keywords'>TIME
+</label>
+</div>
+<div class='c-article-tile__body'>
+<h2 class='c-article-tile__title' style='margin-top: -15px' itemprop='headline'>
+<label style='font-size: 14px'>Start: 8/11/2020 7:05:38 PM
+</label>
+</br>
+<label style='font-size: 14px'>End  :  8/11/2020 7:07:14 PM
+</label>
+</h2>
+</div>
+</article>
+</li>
+</td>
+<td style='width: 15%; overflow:hidden'>
+<li class='c-tile-list__item'>
+<article class='c-article-tile t-sass' itemscope itemtype='#'>
+<div class='c-article-tile__header' style='background: #add8e6'>
+<label class='c-article-tile__category' itemprop='keywords'>DURATION
+</label>
+</div>
+<div class='c-article-tile__body'>
+<h2 class='c-article-tile__title' itemprop='headline'>
+<label >00:01:35
+</label>
+</h2>
+</div>
+</article>
+</li>
+</td>
+</tr>
+<tr style='overflow:hidden; width: 100%'>
+<ul class='c-tile-list'>
+<td style='width: 30%; overflow:hidden;' colspan='2'>
+<li class='c-tile-list__item' style='width: 400px'>
+<article class='c-article-tile t-sass' itemscope itemtype='#'>
+<div class='c-article-tile__header' style='background: #add8e6'>
+<label class='c-article-tile__category' itemprop='keywords'>IE
+</label>
+<label class='c-article-tile__category' style='padding-left: 6em' itemprop='keywords'>PASSED
+</label>
+<label class='c-article-tile__category' style='padding-left: 2em' itemprop='keywords'>FAILED
+</label>
+<label class='c-article-tile__category' style='padding-left: 2em' itemprop='keywords'>SKIPPED
+</label>
+</div>
+<div class='c-article-tile__label'>
+<h2 class='c-article-tile__title' itemprop='headline'>
+<label style='text-align: left'>0
+</label>
+<label class='c-article-tile__category' style='padding-left: 3em' itemprop='keywords'>0
+</label>
+<label class='c-article-tile__category' style='padding-left: 3em' itemprop='keywords'>0
+</label>
+<label class='c-article-tile__category' style='padding-left: 3em' itemprop='keywords'>0
+</label>
+</h2>
+</div>
+</article>
+</li>
+</td>
+<td style='width: 30%; overflow:hidden;' colspan='2'>
+<li class='c-tile-list__item' style='width: 400px'>
+<article class='c-article-tile t-sass' itemscope itemtype='#'>
+<div class='c-article-tile__header'  style='background: #90ee90'>
+<label class='c-article-tile__category' itemprop='keywords'>CHROME
+</label>
+<label class='c-article-tile__category' style='padding-left: 2em' itemprop='keywords'>PASSED
+</label>
+<label class='c-article-tile__category' style='padding-left: 2em' itemprop='keywords'>FAILED
+</label>
+<label class='c-article-tile__category' style='padding-left: 2em' itemprop='keywords'>SKIPPED
+</label>
+</div>
+<div class='c-article-tile__label'>
+<h2 class='c-article-tile__title' itemprop='headline'>
+<label >3
+</label>
+<label class='c-article-tile__category' style='padding-left: 3em' itemprop='keywords'>2
+</label>
+<label class='c-article-tile__category' style='padding-left: 3em' itemprop='keywords'>1
+</label>
+<label class='c-article-tile__category' style='padding-left: 3em' itemprop='keywords'>0
+</label>
+</h2>
+</div>
+</article>
+</li>
+</td>
+<td style='width: 30%; overflow:hidden;' colspan='2'>
+<li class='c-tile-list__item' style='width: 400px'>
+<article class='c-article-tile t-sass' itemscope itemtype='#'>
+<div class='c-article-tile__header'  style='background: #eb2d3a'>
+<label class='c-article-tile__category' itemprop='keywords'>API
+</label>
+<label class='c-article-tile__category' style='padding-left: 2em' itemprop='keywords'>PASSED
+</label>
+<label class='c-article-tile__category' style='padding-left: 2em' itemprop='keywords'>FAILED
+</label>
+<label class='c-article-tile__category' style='padding-left: 2em' itemprop='keywords'>SKIPPED
+</label>
+</div>
+<div class='c-article-tile__label'>
+<h2 class='c-article-tile__title' itemprop='headline'>
+<label >0
+</label>
+<label class='c-article-tile__category' style='padding-left: 3em' itemprop='keywords'>0
+</label>
+<label class='c-article-tile__category' style='padding-left: 3em' itemprop='keywords'>0
+</label>
+<label class='c-article-tile__category' style='padding-left: 3em' itemprop='keywords'>0
+</label>
+</h2>
+</div>
+</article>
+</li>
+</td>
+</td>
+</tr>
+</ul>
+</tr>
+</table>
+</div>
+<div id='AllParent' class='dashboardVisible'>
+<div id='TestCaseParent' style='border-color: #2a2a2a; border-style: solid; border-width: 1px; overflow-x:auto; overflow-y:auto; height:560px; text-align: left; width: 350px;'>
+<table id='SearchTable' style='background: linear-gradient(#777, #444);'><tr>
+<td>
+<input type='text' id='myInput' onkeyup='myFunction()' placeholder='Search for Tests..' style='background-position: 10px 12px; background-repeat: no-repeat;width: 340px; height: 24px; font: 100%/30px Helvetica Neue, helvetica, arial, sans-serif;'></td>
+</tr>
+</table>
+<table id='Tbl_TestSuite' style='font: 100%/30px Helvetica Neue, helvetica, arial, sans-serif; background: #f5f5f5; border-collapse: collapse; margin-top: 1px; box-shadow: inset 0 1px 0 #fff; font-size: 12px; text-align: left; width: 100%'>
+<tr>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: left; line-height: 22px; width: 100%'>Tests
+<span style='padding-left:12em'>Status&emsp;<select id='selectStatus' onChange='filterStatus(this);' style='text-align: left; width: 75px'><option value='All'>All</option><option value='Pass'>Pass</option><option value='Fail'>Fail</option><option value='Warning'>Warning</option><option value='No Run'>No Run</option></select></span></th></tr>
+<tr id='AccessBookstoreapplication_811202070541PM' style='line-height: 18px;' class='normal' onclick='toggleRowHighlight(this.id)'>
+<td style='width: 250px; overflow: hidden; border-bottom: 1px solid #d3d3d3;'>
+<pre> <a href='#' style='font-size: 16px; text-decoration: none;' title='Access Book store application' onclick='showDiv("AccessBookstoreapplication_811202070541PM")'>Access Book store application</a>
+&nbsp;8/11/2020 7:05:41 PM&emsp;<label style='color: green; padding-left: 10em; font-weight: bold; font-variant: small-caps;'>Pass
+</label></pre></td>
+</tr>
+<tr id='VerifyUIforloginpage_811202070624PM' style='line-height: 18px;' class='normal' onclick='toggleRowHighlight(this.id)'>
+<td style='width: 250px; overflow: hidden; border-bottom: 1px solid #d3d3d3;'>
+<pre> <a href='#' style='font-size: 16px; text-decoration: none;' title='Verify UI for login page' onclick='showDiv("VerifyUIforloginpage_811202070624PM")'>Verify UI for login page</a>
+&nbsp;8/11/2020 7:06:24 PM&emsp;<label style='color: green; padding-left: 10em; font-weight: bold; font-variant: small-caps;'>Pass
+</label></pre></td>
+</tr>
+<tr id='VerifyUIforregistrationpage_811202070704PM' style='line-height: 18px;' class='normal' onclick='toggleRowHighlight(this.id)'>
+<td style='width: 250px; overflow: hidden; border-bottom: 1px solid #d3d3d3;'>
+<pre> <a href='#' style='font-size: 16px; text-decoration: none;' title='Verify UI for registration page' onclick='showDiv("VerifyUIforregistrationpage_811202070704PM")'>Verify UI for registration page</a>
+&nbsp;8/11/2020 7:07:04 PM&emsp;<label style='color: red; padding-left: 10em; font-weight: bold; font-variant: small-caps;'>Fail
+</label></pre></td>
+</tr>
+</table></div><div id='StepParent' style='flex: 1; border-color: #2a2a2a; border-style: solid; border-width: 1px; text-align: left; overflow:auto; height:560px;'>
+<div style='display: none;' id='Step_AccessBookstoreapplication_811202070541PM'><table id='TestStepDetailsHeader' style='font: 100%/30px Helvetica Neue, helvetica, arial, sans-serif; background: #f5f5f5; border-collapse: collapse; box-shadow: inset 0 1px 0 #fff; font-size: 12px; line-height: 24px; text-align: left; width: 100%'>
+<tr style='font-weight: bold; font-size:small; align: center;'>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: left; width: 55%'>Access Book store application</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: right; width: 15%'>Environment: QA</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: right; width: 15%'>Browser: chrome</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: right; width: 15%'>Duration: 00:00:40</th>
+</tr>
+</table>
+<table id='TestStepDetails' style='font: 100%/30px Helvetica Neue, helvetica, arial, sans-serif; background: #f5f5f5; border-collapse: collapse; box-shadow: inset 0 1px 0 #fff; font-size: 12px; line-height: 12px; text-align: left; width: 100%'>
+<tr style='line-height: 24px'>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; width: 7%' onclick='sortTable(0)'>Status</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; width: 16%' onclick='sortTable(1)'>Timestamp</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; width: 27%' onclick='sortTable(2)'>Description</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; width: 40%' onclick='sortTable(3)'>Result</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; width: 10%'>Screenshot</th>
+</tr>
+<tr style='background: #d3d3d3;' onclick='toggle("Given  I access Demo QA application");'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:05:41 PM</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Given  I access Demo QA application</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><pre> <b>Expected Result: </b><label>I access Demo QA application
+
+&nbsp;<b>Actual Result: </b>  I access Demo QA application</label></pre></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Given  I access Demo QA application' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:06:20 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Navigated to:https://demoqa.com/</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr style='background: #d3d3d3;' onclick='toggle("And  I navigate to store Application");'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:06:20 PM</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>And  I navigate to store Application</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><pre> <b>Expected Result: </b><label>I navigate to store Application
+
+&nbsp;<b>Actual Result: </b>  I navigate to store Application</label></pre></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='And  I navigate to store Application' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:06:21 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element LBL_Bookstoreapplication_ByXPath clicked.</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr style='background: #d3d3d3;' onclick='toggle("Then  I am navigated to Book store https://demoqa.com/books");'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:06:21 PM</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Then  I am navigated to Book store 'https://demoqa.com/books'</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><pre> <b>Expected Result: </b><label>I am navigated to Book store 'https://demoqa.com/books'
+
+&nbsp;<b>Actual Result: </b>  I am navigated to Book store 'https://demoqa.com/books'</label></pre></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I am navigated to Book store https://demoqa.com/books' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:06:21 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Url https://demoqa.com/books has expected value https://demoqa.com/books</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+</table>
+</div>
+<script type='text/javascript'>function addImgAndReplaceA(){ var links = document.getElementsByTagName('a'); for(var i = 0; i < links.length; i++){ if (links[i].getAttribute('href') != '#') { var a = document.createElement('a'); var pathToFolder = links[i].getAttribute('href').replace(/.+(?=\ScreenShots)/, '.\\'); a.innerHTML = '<img 	src="'+ pathToFolder +'" width=90 height=60>'; links[i].parentNode.replaceChild(a, links[i]); links[i].addEventListener('mouseover', showImg, 	false); links[i].addEventListener('mouseout', unshowImg, false); links[i].addEventListener('click', openImgInTab, false); }} } function openImgInTab(e){ e = e || event; window.open(e.target.src,'_blank'); } function showImg(e){ e = e || event; var div = document.createElement('div'); div.id = 'screenshot'; div.style.cssText='display: block; position: fixed; right: 10%; top:10%; border: solid 3px black;'; div.innerHTML = '<img src=' + e.target.src + ' style=" max-width:' + document.body.clientWidth * 0.8 + 'px; max-height:' + document.body.clientHeight * 0.8 + 'px;">'; document.body.appendChild(div); } function unshowImg(){ var element = document.getElementById('screenshot'); element.parentNode.removeChild(element);} window.onload = addImgAndReplaceA; </script>
+<div style='display: none;' id='Step_VerifyUIforloginpage_811202070624PM'><table id='TestStepDetailsHeader' style='font: 100%/30px Helvetica Neue, helvetica, arial, sans-serif; background: #f5f5f5; border-collapse: collapse; box-shadow: inset 0 1px 0 #fff; font-size: 12px; line-height: 24px; text-align: left; width: 100%'>
+<tr style='font-weight: bold; font-size:small; align: center;'>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: left; width: 55%'>Verify UI for login page</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: right; width: 15%'>Environment: QA</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: right; width: 15%'>Browser: chrome</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: right; width: 15%'>Duration: 00:00:36</th>
+</tr>
+</table>
+<table id='TestStepDetails' style='font: 100%/30px Helvetica Neue, helvetica, arial, sans-serif; background: #f5f5f5; border-collapse: collapse; box-shadow: inset 0 1px 0 #fff; font-size: 12px; line-height: 12px; text-align: left; width: 100%'>
+<tr style='line-height: 24px'>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; width: 7%' onclick='sortTable(0)'>Status</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; width: 16%' onclick='sortTable(1)'>Timestamp</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; width: 27%' onclick='sortTable(2)'>Description</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; width: 40%' onclick='sortTable(3)'>Result</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; width: 10%'>Screenshot</th>
+</tr>
+<tr style='background: #d3d3d3;' onclick='toggle("When  I access Book store Application");'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:06:24 PM</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>When  I access Book store Application</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><pre> <b>Expected Result: </b><label>I access Book store Application
+
+&nbsp;<b>Actual Result: </b>  I access Book store Application</label></pre></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='When  I access Book store Application' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:06:58 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Navigated to:https://demoqa.com/</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='When  I access Book store Application' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:06:59 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element LBL_Bookstoreapplication_ByXPath clicked.</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='When  I access Book store Application' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:06:59 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Url https://demoqa.com/books has expected value https://demoqa.com/books</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr style='background: #d3d3d3;' onclick='toggle("Given  I Navigate to login page");'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:06:59 PM</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Given  I Navigate to login page</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><pre> <b>Expected Result: </b><label>I Navigate to login page
+
+&nbsp;<b>Actual Result: </b>  I Navigate to login page</label></pre></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Given  I Navigate to login page' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:01 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element LBL_Login_ByXPath clicked.</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr style='background: #d3d3d3;' onclick='toggle("Then  I should be able to view desired fields for login page");'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:01 PM</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Then  I should be able to view desired fields for login page</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><pre> <b>Expected Result: </b><label>I should be able to view desired fields for login page
+
+&nbsp;<b>Actual Result: </b>  I should be able to view desired fields for login page</label></pre></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields for login page' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:01 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element LBL_Username_ByXPath is visible</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields for login page' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:01 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Expected text: UserName : matches Actual text: UserName :</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields for login page' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:01 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element TXT_Username_ByXPath is visible</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields for login page' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:01 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Attribute placeholder for element: TXT_Username_ByXPath with value: UserName matches require value.</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields for login page' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:01 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element LBL_Password_ByXPath is visible</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields for login page' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:01 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Expected text: Password : matches Actual text: Password :</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields for login page' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:01 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element TXT_Password_ByXPath is visible</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields for login page' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:01 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Attribute placeholder for element: TXT_Password_ByXPath with value: Password matches require value.</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields for login page' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:01 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element BTN_Login_ByXPath is visible</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields for login page' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:01 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element BTN_Newuser_ByXPath is visible</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+</table>
+</div>
+<script type='text/javascript'>function addImgAndReplaceA(){ var links = document.getElementsByTagName('a'); for(var i = 0; i < links.length; i++){ if (links[i].getAttribute('href') != '#') { var a = document.createElement('a'); var pathToFolder = links[i].getAttribute('href').replace(/.+(?=\ScreenShots)/, '.\\'); a.innerHTML = '<img 	src="'+ pathToFolder +'" width=90 height=60>'; links[i].parentNode.replaceChild(a, links[i]); links[i].addEventListener('mouseover', showImg, 	false); links[i].addEventListener('mouseout', unshowImg, false); links[i].addEventListener('click', openImgInTab, false); }} } function openImgInTab(e){ e = e || event; window.open(e.target.src,'_blank'); } function showImg(e){ e = e || event; var div = document.createElement('div'); div.id = 'screenshot'; div.style.cssText='display: block; position: fixed; right: 10%; top:10%; border: solid 3px black;'; div.innerHTML = '<img src=' + e.target.src + ' style=" max-width:' + document.body.clientWidth * 0.8 + 'px; max-height:' + document.body.clientHeight * 0.8 + 'px;">'; document.body.appendChild(div); } function unshowImg(){ var element = document.getElementById('screenshot'); element.parentNode.removeChild(element);} window.onload = addImgAndReplaceA; </script>
+<div style='display: none;' id='Step_VerifyUIforregistrationpage_811202070704PM'><table id='TestStepDetailsHeader' style='font: 100%/30px Helvetica Neue, helvetica, arial, sans-serif; background: #f5f5f5; border-collapse: collapse; box-shadow: inset 0 1px 0 #fff; font-size: 12px; line-height: 24px; text-align: left; width: 100%'>
+<tr style='font-weight: bold; font-size:small; align: center;'>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: left; width: 55%'>Verify UI for registration page</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: right; width: 15%'>Environment: QA</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: right; width: 15%'>Browser: chrome</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; text-align: right; width: 15%'>Duration: 00:00:09</th>
+</tr>
+</table>
+<table id='TestStepDetails' style='font: 100%/30px Helvetica Neue, helvetica, arial, sans-serif; background: #f5f5f5; border-collapse: collapse; box-shadow: inset 0 1px 0 #fff; font-size: 12px; line-height: 12px; text-align: left; width: 100%'>
+<tr style='line-height: 24px'>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; width: 7%' onclick='sortTable(0)'>Status</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; width: 16%' onclick='sortTable(1)'>Timestamp</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; width: 27%' onclick='sortTable(2)'>Description</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; width: 40%' onclick='sortTable(3)'>Result</th>
+<th style='background: linear-gradient(#777, #444); border-left: 1px solid #555; border-right: 1px solid #777; border-top: 1px solid #555; border-bottom: 1px solid #333; box-shadow: inset 0 1px 0 #999; color: #fff; font-weight: bold; padding: 5px 8px; position: relative; text-shadow: 0 1px 0 #000; width: 10%'>Screenshot</th>
+</tr>
+<tr style='background: #d3d3d3;' onclick='toggle("When  I access Book store Application");'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:04 PM</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>When  I access Book store Application</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><pre> <b>Expected Result: </b><label>I access Book store Application
+
+&nbsp;<b>Actual Result: </b>  I access Book store Application</label></pre></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='When  I access Book store Application' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:10 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Navigated to:https://demoqa.com/</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='When  I access Book store Application' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:11 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element LBL_Bookstoreapplication_ByXPath clicked.</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='When  I access Book store Application' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:11 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Url https://demoqa.com/books has expected value https://demoqa.com/books</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr style='background: #d3d3d3;' onclick='toggle("Given  I Navigate to registration form");'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:11 PM</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Given  I Navigate to registration form</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><pre> <b>Expected Result: </b><label>I Navigate to registration form
+
+&nbsp;<b>Actual Result: </b>  I Navigate to registration form</label></pre></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Given  I Navigate to registration form' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:12 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element LBL_Login_ByXPath clicked.</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Given  I Navigate to registration form' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:13 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element BTN_Newuser_ByXPath clicked.</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr style='background: #d3d3d3;' onclick='toggle("Then  I should be able to view desired fields");'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: red'>Fail</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:13 PM</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Then  I should be able to view desired fields</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><pre> <b>Expected Result: </b><label>I should be able to view desired fields
+
+&nbsp;<b>Actual Result: </b>Expected text: LoginName : does not match Actual text: UserName :</label></pre></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+<a href='C:/Users/DhamaleSl/Source/Repos/Selenium-UI-Tests/TestAutomation.UITests/Results/UITestsTestSuite_08112020190538/ScreenShots\Expected-text-LoginName-does-not-match-Actual-text-UserName-_08-11-2020_19-07-13.jpeg'>Screenshot</a>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:13 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element LBL_Firstname_ByXPath is visible</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:13 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Expected text: First Name : matches Actual text: First Name :</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:13 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element TXT_FirstName_ByXPath is visible</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:13 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Attribute placeholder for element: TXT_FirstName_ByXPath with value: First Name matches require value.</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:13 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element LBL_Lastname_ByXPath is visible</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:13 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Expected text: Last Name : matches Actual text: Last Name :</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:13 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element TXT_LastName_ByXPath is visible</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:13 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Attribute placeholder for element: TXT_LastName_ByXPath with value: Last Name matches require value.</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:13 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element LBL_Username_ByXPath is visible</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: green'>Pass</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:13 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Element LBL_Username_ByXPath loaded within given timeout period.</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+</td>
+</tr>
+<tr class='Then  I should be able to view desired fields' style='display: none; background: #F1F1F1;'>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label style='color: red'>Fail</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>8/11/2020 7:07:13 PM</label></td>
+<td title='' colspan='2' style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'><label>Expected text: LoginName : does not match Actual text: UserName :</label></td>
+<td style='border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; position: relative; transition: all 300ms;'>
+<a href='C:/Users/DhamaleSl/Source/Repos/Selenium-UI-Tests/TestAutomation.UITests/Results/UITestsTestSuite_08112020190538/ScreenShots\Expected-text-LoginName-does-not-match-Actual-text-UserName-_08-11-2020_19-07-13.jpeg'>Screenshot</a>
+</td>
+</tr>
+</table>
+</div>
+<script type='text/javascript'>function addImgAndReplaceA(){ var links = document.getElementsByTagName('a'); for(var i = 0; i < links.length; i++){ if (links[i].getAttribute('href') != '#') { var a = document.createElement('a'); var pathToFolder = links[i].getAttribute('href').replace(/.+(?=\ScreenShots)/, '.\\'); a.innerHTML = '<img 	src="'+ pathToFolder +'" width=90 height=60>'; links[i].parentNode.replaceChild(a, links[i]); links[i].addEventListener('mouseover', showImg, 	false); links[i].addEventListener('mouseout', unshowImg, false); links[i].addEventListener('click', openImgInTab, false); }} } function openImgInTab(e){ e = e || event; window.open(e.target.src,'_blank'); } function showImg(e){ e = e || event; var div = document.createElement('div'); div.id = 'screenshot'; div.style.cssText='display: block; position: fixed; right: 10%; top:10%; border: solid 3px black;'; div.innerHTML = '<img src=' + e.target.src + ' style=" max-width:' + document.body.clientWidth * 0.8 + 'px; max-height:' + document.body.clientHeight * 0.8 + 'px;">'; document.body.appendChild(div); } function unshowImg(){ var element = document.getElementById('screenshot'); element.parentNode.removeChild(element);} window.onload = addImgAndReplaceA; </script>
+</div>
+</div>
+<script type='text/javascript'>function toggle(id){var element = document.getElementsByClassName(id);i = element.length;while(i--){element[i].display = "none";if (element[i]) {var display = element[i].style.display;if (display == "none"){element[i].style.display = "";} else{element[i].style.display = "none";}}}}</script>
+<script type='text/javascript'>function showDiv(idParam){idParam = 'Step_' + idParam; var eles = []; var inputs = document.getElementsByTagName('div'); for (var i = 0; i < inputs.length; i++){if (inputs[i].id.indexOf('Step_') == 0){document.getElementById(inputs[i].id).style.display = 'none';}} document.getElementById(idParam).style.display = 'block';}</script>
+<script type='text/javascript'>function myFunction() {var input, filter, table, tr, td, i; document.getElementById('selectStatus').selectedIndex='0'; input = document.getElementById('myInput'); filter = input.value.toUpperCase(); table = document.getElementById('Tbl_TestSuite'); tr = table.getElementsByTagName('tr'); for (i = 0; i < tr.length; i++) { td = tr[i].getElementsByTagName('a')[0];  if (td) {td.innerHTML.toUpperCase(); if (td.innerHTML.toUpperCase().indexOf(filter) > -1) { tr[i].style.display='';} else { tr[i].style.display='none';}}}showDiv('');}</script>
+<script type="text/javascript">function sortTable(n) {var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;table = document.getElementById('TestStepDetails');switching = true;dir = 'asc'; while (switching) {switching = false;  rows = table.getElementsByTagName('TR');  for (i = 1; i < (rows.length - 1); i++) {shouldSwitch = false; x = rows[i].getElementsByTagName('label')[n];    y = rows[i + 1].getElementsByTagName('label')[n]; if (dir == 'asc') {    if(x){  if (x.innerHTML.toLowerCase().trim() > y.innerHTML.toLowerCase().trim()) {shouldSwitch= true;        break;      }    } else if (dir == 'desc') {      if (x.innerHTML.toLowerCase().trim() < y.innerHTML.toLowerCase().trim()) { shouldSwitch= true;        break;      }    } } }  if (shouldSwitch) {rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);    switching = true; switchcount ++;   } else {if (switchcount == 0 && dir == 'asc') {      dir = 'desc';      switching = true;    }  }}}</script>
+<script type='text/javascript'>function filterStatus(selectedItem) {var input, filter, table, tr, td, i; document.getElementById('myInput').value ='';input = document.getElementById('selectStatus'); filter = input.value.toUpperCase(); table = document.getElementById('Tbl_TestSuite'); tr = table.getElementsByTagName('tr'); for (i = 0; i < tr.length; i++) { td = tr[i].getElementsByTagName('label')[0];  if (td) {if (td.innerHTML.trim() == selectedItem.value.trim()) { tr[i].style.display = ''; } else if (selectedItem.value == 'All') { tr[i].style.display = '';} else { tr[i].style.display = 'none';} }}showDiv('');}</script>
+<script type='text/javascript'>function toggleRowHighlight(rowID) {var rowAll = document.getElementsByClassName('highlight');for (i = 0; i < (rowAll.length); i++) {rowAll[i].className = 'normal';} var row = document.getElementById(rowID); var curr = row.className;if (curr.indexOf('normal') >= 0) {row.className = 'highlight'; showDiv(rowID);}else {row.className = 'normal';}}</script>
+<script type='text/javascript'>function toggleDashboard(divID) {if (divID == 'AllParent') {document.getElementById('AllParent').className = 'dashboardVisible'; document.getElementById('AllDashboard').className = 'dashboardInVisible'; } else if (divID == 'AllDashboard') {document.getElementById('AllDashboard').className = 'dashboardVisible'; document.getElementById('AllParent').className = 'dashboardInVisible'; }}</script>
+</body>
+</html>
